@@ -1,0 +1,37 @@
+* {
+  user-select: none;
+}
+
+body {
+  color: #fff;
+  --main: #085235;
+}
+
+.ascii {
+  font-family: monospace;
+  white-space: pre-wrap;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--main);
+}
+
+.options > * {
+  padding: 5px;
+  color: var(--main);
+}
+
+/* TODO: Get good at CSS */
+.abs {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.button {
+  width: 80%;
+  color: var(--main);
+  border-left: 4px solid var(--main);
+}
